@@ -10,7 +10,14 @@ function bisiesto(a) {
     }
     else
     {
-      return a +"";
+      if(a==4)
+      {
+        return "Es Bisiesto";
+      }
+      else{
+        return a +"";
+      }
+      
     }
   
   }
