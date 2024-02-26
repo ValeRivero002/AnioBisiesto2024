@@ -15,7 +15,14 @@ function bisiesto(a) {
         return "Es Bisiesto";
       }
       else{
-        return a +"";
+        if(a%4!=0)
+        {
+          return "No Es Bisiesto";
+        }
+        else{
+          return a +"";
+        }
+        
       }
       
     }

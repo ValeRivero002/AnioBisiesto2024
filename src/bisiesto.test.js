@@ -1,9 +1,6 @@
 import bisiesto from "./bisiesto.js";
 
 describe("bisiesto", () => {
-  it("deberia el mismo numero que se introduce", () => {
-    expect(bisiesto(3)).toEqual("3");
-  });
   it("deberia imprimir es bisiesto al introducir 400", () => {
     expect(bisiesto(400)).toEqual("Es Bisiesto");
   });
@@ -21,5 +18,8 @@ describe("bisiesto", () => {
   });
   it("deberia imprimir es bisiesto al introducir los años divisibles por 4 pero no por 100", () => {
     expect(bisiesto(2012)).toEqual("Es Bisiesto");
+  });
+  it("deberia imprimir no es bisiesto al introducir cualquier numero que no es multiplo de 4", () => {
+    expect(bisiesto(2017)).toEqual("No Es Bisiesto");
   });
 });
