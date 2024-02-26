@@ -10,7 +10,7 @@ function bisiesto(a) {
     }
     else
     {
-      if(a==4)
+      if(a%4==0 && a%100!=0)
       {
         return "Es Bisiesto";
       }
