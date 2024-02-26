@@ -4,6 +4,14 @@ function bisiesto(a) {
     return "Es Bisiesto";
   }
   {
+    if(a==100)
+    {
+      return "No Es Bisiesto";
+    }
+    else
+    {
+      return a +"";
+    }
     return a +"";
   }
   
