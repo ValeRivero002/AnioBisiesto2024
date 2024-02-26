@@ -4,7 +4,7 @@ function bisiesto(a) {
     return "Es Bisiesto";
   }
   {
-    if(a==100)
+    if(a%100==0 && a%400!=0)
     {
       return "No Es Bisiesto";
     }
@@ -12,7 +12,7 @@ function bisiesto(a) {
     {
       return a +"";
     }
-    return a +"";
+  
   }
   
 }

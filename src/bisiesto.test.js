@@ -13,4 +13,7 @@ describe("bisiesto", () => {
   it("deberia imprimir No es bisiesto al introducir 100", () => {
     expect(bisiesto(100)).toEqual("No Es Bisiesto");
   });
+  it("deberia imprimir No es bisiesto al introducir los años divisibles por 100 pero no por 400", () => {
+    expect(bisiesto(1700)).toEqual("No Es Bisiesto");
+  });
 });
