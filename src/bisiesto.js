@@ -1,5 +1,12 @@
 function bisiesto(a) {
-  return a +"";
+  if(a==400)
+  {
+    return "Es Bisiesto";
+  }
+  {
+    return a +"";
+  }
+  
 }
 
 export default bisiesto;
